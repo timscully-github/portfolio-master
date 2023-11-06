@@ -52,15 +52,25 @@ body {
     }
 }
 
+.navbar {
+    padding: 0.5rem 0rem;
+}
+
 .navbar-brand {
     font-size: 20px;
     font-size: 1.25rem;
-
 }
 
 .nav-link {
     font-size: 20px;
     font-size: 1.25rem;
+}
+
+@media(max-width: 767px) {
+    .nav-link {
+        font-size: 20px;
+        font-size: 1.02rem;
+    }
 }
 
 .text-white {
@@ -79,6 +89,11 @@ body {
 @media(max-width: 575px) {
     .view-work-text {
         margin-top: 50px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        font-size: 1.25rem;
     }
 }
 

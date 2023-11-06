@@ -11,9 +11,9 @@ $(window).on("scroll touchmove", function() {
     if ($(document).scrollTop() > $("#banners").position().top) {
         $('body').css('background', $("#banners").attr("data-color"));
     };
-//    if ($(document).scrollTop() > $("#websites").position().top) {
-//        $('body').css('background', $("#websites").attr("data-color"));
-//    };
+    if ($(document).scrollTop() > $("#websites").position().top) {
+        $('body').css('background', $("#websites").attr("data-color"));
+    };
     if ($(document).scrollTop() >= $("#contact-section").position().top) {
         $('body').css('background', $("#contact-section").attr("data-color"));
     };
